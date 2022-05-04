@@ -2117,6 +2117,23 @@ Allow之后会在当前工作目录的`.vscode/settings.json`文件（即当前�
 
 
 
+### 6. vscode远程连接GUI显示配置
+
+1. 保证本地vscode与服务器之间ssh连接为密钥连接，并且vscode能够正常连 接服务器并正常操作
+2. 在vscode插件市场安装插件
+
+- 本地安装Remote X11（SSH）插件  (Joel Spadin)
+- 远程服务器安装 Remote X11  插件  (Joel Spadin)
+
+3. 本地win安装xserver服务
+   安装xserver的方式有很多种
+
+   方式1：mobaxterm自带xserver，所以打开mobaxterm放边上
+   方式2：安装VcXsrv（微软官方推荐）
+   方式3：安装xming
+
+
+
 ## 代码编写规范工具
 
 研五部软件编程规范 ReleaseV1.0
